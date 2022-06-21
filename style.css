@@ -1,0 +1,132 @@
+#Head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background: #EEFFFF;
+}
+#Logo {
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  height: 80%;
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background: #EEFFFF;
+}
+#Title {
+  position: absolute;
+  top: 0;
+  left: 210px;
+  height: 100%;
+  width: calc(100% - 210px);
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background: #EEFFFF;
+  color: #111133;
+}
+.main {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100% - 150px);
+  width: calc(100% - 50px);
+  padding: 25px;
+  font-size: 6vh;
+  text-align: center;
+  line-height: 8vh;
+  background: #111133;
+  color: #EEFFFF;
+}
+.top {
+  width: 100%;
+  height: 80%;
+  background-image: url(images/home4.jpeg);
+  background-size: contain;
+}
+.top {
+  -webkit-shape-outside: polygon(0% 0, 100% 0%, 100% 100%);
+  shape-outside: polygon(0% 0, 100% 0%, 100% 100%);
+  float: right;
+  -webkit-clip-path: polygon(0% 0, 100% 0%, 100% 100%);
+  clip-path: polygon(0% 0, 100% 0%, 100% 100%);
+}
+a{
+  color: #EEFFFF;
+}
+
+#z0 {
+  display: block;
+}
+
+#z1 {
+  display: none;
+}
+
+#t0 {
+  background-image: url(images/home4.jpeg);
+}
+
+#t1 {
+  background-image: url(images/home2.jpeg);
+}
+
+#Controls {
+  position: absolute;
+  top: calc(100% - 50px);
+  left: 0;
+  height: 50px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background: #EEFFFF;
+  -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#Left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 20%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background: #EEFFFF;
+}
+
+#Text {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  height: 50px;
+  width: 60%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background: #EEFFFF;
+}
+
+#Right {
+  position: absolute;
+  top: 0;
+  left: 80%;
+  height: 50px;
+  width: 20%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  background: #EEFFFF;
+}
